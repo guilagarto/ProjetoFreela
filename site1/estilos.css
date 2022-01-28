@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*.home{
+    background: url("../gameJavaScript/img/7.jpg");
+}*/
+
+body{
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    background: #fff url("../gameJavaScript/img/.png") repeat-x;
+}
+
+#container{
+    width: 750px;
+    margin: 0 auto;
+    
+
+}
+#topo{
+    height:200px;
+    background: #fff url("../gameJavaScript/img/6.jpg") repeat-x;
+    
+}
+
+.logo{
+    width:152px;
+    height:66px;
+    background: url("../gameJavaScript/img/.png") repeat-x;
+    /*text-indent: 200px;*/
+}
+
+ul{
+    margin: 0 auto;
+    padding: 0
+    list-style none;
+}
+#topo ul{
+    background: #b10333;
+    float: left;
+
+}
+
+#topo ul li{
+    float: left;
+}
+
+#topo ul a{
+    font-size: 0.9 en;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.5em;
+    text-decoration: none;
+    color: #fff;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover{
+    color: #fff;
+}
+
+body.home #navegacao a#home,
+body.contato #navegacao a#contato,
+body.login #navegacao a#login,
+body.ultimasNoticias #navegacao a#ultimasNoticias,
+body.vagas #navegacao a#vagas,
+body.cadastro #navegacao a#cadastro {
+    color: #fff;
+    background: #e26181;
+    cursor: text;
+}
+
+#conteudo{
+    background: #7e0a3a;
+    margin-top: 65px;
+}
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    color: rgb(248, 155, 155);
+}
+#lateral a{
+    font-size:0.9em;
+    padding: 3;
+    display:block;
+    line-height: 30px;
+    color: rgb(19, 11, 11);
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+
+}
+#lateral ul a:houver{
+    background: #f9f9f9 ;
+    color: #a1a1a1;
+    padding: 3px;
+}
+
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    
+}
+
+#tres-colunas #primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    
+}
+#uma-colunas #primario{
+    width: 750px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background: #fff;
+  
+}
+#duas-colunas #primario{
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background: #fff;
+   
+}
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    background: rgb(126, 175, 11);
+}
+
+#containe-rodape{
+    background: #0b0e8a;
+    padding: 20ox;
+
+}
+
+.caixa{
+    margin:10 px 0;
+    background: #af2121 url("../gameJavaScript/img/1.jpg");
+    padding: 5px 0 5px 0 5px;
+
+}
+h2{
+    font-size:1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+input{
+    padding: 5px;
+    width: 125px;
+    font-size:0.9em;
+    background-color: #fff;
+}
+input.submit{
+    width:80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    
+}
+
+#lista-noticias li a img{
+   float: left;
+    margin: 5px;
+    padding:30px;
+}
+
+
+
+#lista-noticias li{
+    padding:2px;
+    border-bottom: 1px solid #ccc;
+    height: 5px;
+}
+
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    background: black;
+    color: white;
+
+}
+
+#container-rodape{
+    background:#294c71;
+    padding: 20px
+}
+img{
+    border: 2px solid #dfdfdf;
+
+}
+img.imagem-principal{
+    width:98%;
+    border: 2px solid #dfdfdf;
+}
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size:0.8em;
+    padding:3px;
+}
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top:5px;
+}
+
