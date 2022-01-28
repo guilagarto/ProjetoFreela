@@ -1,2 +1,3 @@
-# ProjetoFreela
-Projeto site de cadastro e busca de profissionais autonomos
+Projeto site FREELA, 
+tela de cadastro e anuncio de vagas
+
