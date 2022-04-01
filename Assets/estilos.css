@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*.home{
+    background: url("../gameJavaScript/img/7.jpg");
+}*/
+
+body{
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    background: #fff url("../gameJavaScript/img/.png") repeat-x;
+}
+
+#container{
+    width: 750px;
+    margin: 0 auto;
+    
+
+}
+#topo{
+    height:200px;
+    background: #fff url("../gameJavaScript/img/6.jpg") repeat-x;
+    
+}
+
+.logo{
+    width:152px;
+    height:66px;
+    background: url("../gameJavaScript/img/.png") repeat-x;
+    /*text-indent: 200px;*/
+}
+
+ul{
+    margin: 0 auto;
+    padding: 0
+    list-style none;
+}
+#topo ul{
+    background: #b10333;
+    float: left;
+
+}
+
+#topo ul li{
+    float: left;
+}
+
+#topo ul a{
+    font-size: 0.9 en;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.5em;
+    text-decoration: none;
+    color: #fff;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover{
+    color: #fff;
+}
+
+body.home #navegacao a#home,
+body.contato #navegacao a#contato,
+body.login #navegacao a#login,
+body.ultimasNoticias #navegacao a#ultimasNoticias,
+body.vagas #navegacao a#vagas,
+body.cadastro #navegacao a#cadastro {
+    color: #fff;
+    background: #e26181;
+    cursor: text;
+}
+
+#conteudo{
+    background: #7e0a3a;
+    margin-top: 65px;
+}
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    color: rgb(248, 155, 155);
+}
+#lateral a{
+    font-size:0.9em;
+    padding: 3;
+    display:block;
+    line-height: 30px;
+    color: rgb(19, 11, 11);
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+
+}
+#lateral ul a:houver{
+    background: #f9f9f9 ;
+    color: #a1a1a1;
+    padding: 3px;
+}
+
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    
+}
+
+#tres-colunas #primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    
+}
+#uma-colunas #primario{
+    width: 750px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background: #fff;
+  
+}
+#duas-colunas #primario{
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background: #fff;
+   
+}
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    background: rgb(126, 175, 11);
+}
+
+#containe-rodape{
+    background: #0b0e8a;
+    padding: 20ox;
+
+}
+
+.caixa{
+    margin:10 px 0;
+    background: #af2121 url("../gameJavaScript/img/1.jpg");
+    padding: 5px 0 5px 0 5px;
+
+}
+h2{
+    font-size:1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+input{
+    padding: 5px;
+    width: 125px;
+    font-size:0.9em;
+    background-color: #fff;
+}
+input.submit{
+    width:80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    
+}
+
+#lista-noticias li a img{
+   float: left;
+    margin: 5px;
+    padding:30px;
+}
+
+
+
+#lista-noticias li{
+    padding:2px;
+    border-bottom: 1px solid #ccc;
+    height: 5px;
+}
+
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    background: black;
+    color: white;
+
+}
+
+#container-rodape{
+    background:#294c71;
+    padding: 20px
+}
+img{
+    border: 2px solid #dfdfdf;
+
+}
+img.imagem-principal{
+    width:98%;
+    border: 2px solid #dfdfdf;
+}
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size:0.8em;
+    padding:3px;
+}
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top:5px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    width: 100%;
+    height: 5px;
+    background-color: #222;
+    font-family: 'Arial';
+}
+
+.menu ul{
+    list-style: none;
+    position: relative;
+
+}
+
+.menu ul li{
+    width: 150px;
+    float:left ;
+}
+
+.menu a{
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+}
+
+.menu ul ul{
+    position: absolute;
+    visibility: hidden;
+}
+.menu ul li:hover ul{
+    visibility: visible;
+}
+
+.menu ul ul li{
+    float: none;
+    border-bottom: solid 1px "#ccc";
+}
+
+.munu ul ul li a{
+    background-color: #069;
+}
+
+.menu a:hover{
+    background-color: #f4f4f4;
+    color: #555;
+}
+
+label [for="bt_menu"]{
+    padding: 5px;
+    background-color: #222;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+#bt_menu{
+    display: none;
+}
+label[for = "bt_menu"]{
+    display: none;
+}
+@media(max-width:800px){
+    label[for="bt_menu"]{
+        display: block;
+    }
+
+    #bt_menu:checked ~ .menu{
+        margin-left: 0;
+    }
+    .menu{
+        margin-top: 5px;
+        margin-left: -100%;
+        transform: all .4s;
+
+    }
+    .menu ul li{
+        width: 100%;
+        float: none;
+    }
+    .menu ul ul{
+        position:static ;
+        overflow: hidden;
+        max-height:  0%;
+        transition: all .4s;
+    }
+    .menu ul li:hover ul{
+        height: auto;
+        max-height:200px;
+    }
+}
